@@ -31,9 +31,7 @@ public class MerriageEligibility extends HttpServlet {
        catch(Exception e){
     	   pw.println("<h1 style = 'color:green; text-align:center'>Name and Age is Required</h1>");
        }
-    
-       
-    
+   
            if(req.getParameter("gender").equalsIgnoreCase("MALE"))
        	   tgender = "male";
            else
